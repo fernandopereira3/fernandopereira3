@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**fernandopereira3/fernandopereira3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+I'm Fernando, current 37 years old, I'm from Brazil and I'm a DevOps Engineer. Graduated in Computer Science Postgraduate in IA and Learning Machine. I have been working with DevOps since 2012, in the government of the state of São Paulo since 2006. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My experiences: 
+1. AWS 
+2. GCP 
+3. Azure 
+4. Docker
+5. Kubernetes
+6. Terraform
+7. Ansible
+8. GitActions CI/CD
+9. Jenkins
+10. Prometheus
+11. Grafana
+12. all Linux distros
+13. and a little bit a full stack Dev.
+
+I love Python and I'm learning Go.
