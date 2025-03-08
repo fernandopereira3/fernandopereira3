@@ -19,14 +19,14 @@ My experiences:
 12. all Linux distros
 13. and a little bit a full stack Dev.
 
-*** ------------------------------------------------------------------------------------- ***
+=================================================================================
 
---> I love Python
---> I'm learning Go
---> I work and worry more than I should about work.
---> I speak English, Portuguese and a I try Spanish.
---> I love to learn new things.
---> I'm a father of one boy.
---> I'm a husband.
---> I am a human being, at least I try to appear human most of the time..
---> And a write all this --> cause I like.
+* --> I love Python
+* --> I'm learning Go
+* --> I work and worry more than I should about work.
+* --> I speak English, Portuguese and a I try Spanish.
+* --> I love to learn new things.
+* --> I'm a father of one boy.
+* --> I'm a husband.
+* --> I am a human being, at least I try to appear human most of the time..
+* --> And a write all this --> cause I like.
