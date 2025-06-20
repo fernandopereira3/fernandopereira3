@@ -45,7 +45,7 @@ My experiences:
 <div align="center">
   <img 
     height="180em" 
-    src="https://github-readme-stats.vercel.app/api?username=fernandopereira3)"
+    src="https://github-readme-stats.vercel.app/api?username=fernandopereira3"
     alt="Estatísticas do GitHub de Fernando Pereira"
   />
   <img 
