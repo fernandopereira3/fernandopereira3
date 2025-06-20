@@ -31,10 +31,29 @@ My experiences:
 * --> I am a human being, at least I try to appear human most of the time..
 * --> And I don`t like CSS and Markdown, you can see this...
 
+<div align="center">
+
 ## 🌐 **Conecte-se comigo**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/fernando-pereira-011615bb/) 
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=FFF)](https://github.com/fernandopereira3)  
 [![Email](https://img.shields.io/badge/E--mail-000?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:fernandopereira-3@hotmail.com)
 
+</div>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fernandopereira3)]
+
+## 📈 **Estatísticas do GitHub**
+
+<div align="center">
+  <img 
+    height="180em" 
+    src="https://github-readme-stats.vercel.app/api?username=fernandopereira3&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"
+    alt="Estatísticas do GitHub de Fernando Pereira"
+  />
+  <img 
+    height="180em" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernandopereira3&layout=compact&theme=tokyonight"
+    alt="Linguagens mais utilizadas por Fernando Pereira"
+  />
+</div>
+
+---
