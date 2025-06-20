@@ -37,7 +37,7 @@ Started as an "I.T Boy" in the São Paulo state government back in 2006, and nev
 =================================================================================
 
 ## 🌐 **Let's Connect!**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/fernando-pereira-011615bb/) | [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=FFF)](https://github.com/fernandopereira3) | [![Email](https://img.shields.io/badge/E--mail-000?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:fernandopereira-3@hotmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/fernando-pereira-011615bb/)  [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=FFF)](https://github.com/fernandopereira3)  [![Email](https://img.shields.io/badge/E--mail-000?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:fernandopereira-3@hotmail.com)
 
 =================================================================================
 
