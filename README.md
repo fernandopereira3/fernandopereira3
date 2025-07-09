@@ -6,33 +6,29 @@ Started as an "I.T Boy" in the São Paulo state government back in 2006, and nev
 
 ## 🛠️ Tech Arsenal:
 
-1. ☁️ AWS 
-2. 🌐 GCP 
-3. 💫 Azure 
-4. 🐳 Docker
-5. ⚓ Kubernetes
-6. 🏗️ Terraform
-7. 🎮 Ansible
-8. 🔄 GitActions CI/CD
-9. 🛠️ Jenkins
-10. 📊 Prometheus
-11. 📈 Grafana
-12. 🐧 All Linux distros
-13. 💻 Full stack Dev (a bit!)
+| Cloud & Infrastructure | Development & Monitoring |
+|-----------------------|-------------------------|
+| ☁️ AWS | 🐳 Docker |
+| 🌐 GCP | ⚓ Kubernetes |
+| 💫 Azure | 🏗️ Terraform |
+| 🐧 Linux | 🎮 Ansible |
+| | 🔄 GitActions |
+| | 🛠️ Jenkins |
+| | 📊 Prometheus |
+| | 📈 Grafana |
+| | 💻 Full Stack |
 
 =================================================================================
 
 ## 🎯 Fun Facts About Me:
 
-* 🐍 Python enthusiast
-* 🏃‍♂️ Go language learner
-* 💪 Passionate (sometimes too much) about work
-* 🗣️ Trilingual: English, Portuguese, and attempting Spanish!
-* 🧠 Knowledge addict
-* 👶 Proud father of an amazing boy
-* ❤️ Devoted husband
-* 🤖 Human being (most of the time... beep boop!)
-* 🎨 CSS and Markdown aren't my best friends (as you can tell!)
+| Personal | Professional |
+|----------|-------------|
+| 👶 Proud father of an amazing boy | 🐍 Python enthusiast |
+| ❤️ Devoted husband | 🏃‍♂️ Go language learner |
+| 🗣️ Trilingual: English, Portuguese, and attempting Spanish! | 💪 Passionate (sometimes too much) about work |
+| 🤖 Human being (most of the time... beep boop!) | 🧠 Knowledge addict |
+| | 🎨 CSS and Markdown aren't my best friends (as you can tell!) |
 
 =================================================================================
 
