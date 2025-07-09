@@ -30,10 +30,6 @@ Started as an "I.T Boy" in the São Paulo state government back in 2006, and nev
 | 🤖 Human being (most of the time... beep boop!) | 🧠 Knowledge addict |
 | | 🎨 CSS and Markdown aren't my best friends (as you can tell!) |
 
-=================================================================================
-
-## 🌐 **Let's Connect!**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/fernando-pereira-011615bb/)  [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=FFF)](https://github.com/fernandopereira3)  [![Email](https://img.shields.io/badge/E--mail-000?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:fernandopereira-3@hotmail.com) [![Instagram](https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram)](https://www.instagram.com/apenas_fernando/) [![Facebook](https://img.shields.io/badge/Facebook-000?style=for-the-badge&logo=facebook)](https://facebook.com/fernando.pereira.16718)
 
 =================================================================================
 
@@ -51,5 +47,10 @@ Started as an "I.T Boy" in the São Paulo state government back in 2006, and nev
     alt="Most Used Languages by Fernando Pereira"
   />
 </div>
+
+=================================================================================
+
+## 🌐 **Let's Connect!**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/fernando-pereira-011615bb/)  [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=FFF)](https://github.com/fernandopereira3)  [![Email](https://img.shields.io/badge/E--mail-000?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:fernandopereira-3@hotmail.com) [![Instagram](https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram)](https://www.instagram.com/apenas_fernando/) [![Facebook](https://img.shields.io/badge/Facebook-000?style=for-the-badge&logo=facebook)](https://facebook.com/fernando.pereira.16718)
 
 ---
