@@ -1,8 +1,6 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=4000&pause=1000&color=2EBD85&center=true&vCenter=true&width=500&lines=Hello;DevOps+Engineer!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=4000&pause=1000&color=2EBD85&center=true&vCenter=true&width=500&lines=Hi+there+👋;Professional+DevOps+Engineer!" alt="Typing SVG" />
 </div>
-
-# Hi there 👋 🚀
 
 I'm Fernando, a 37-year-old DevOps Engineer from Brazil! 🇧🇷 
 With a Computer Science degree and a Postgraduate in AI and Machine Learning, I've been rocking the DevOps world since 2012! 🌟
