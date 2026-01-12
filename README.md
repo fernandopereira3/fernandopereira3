@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=4000&pause=1000&color=2EBD85&center=true&vCenter=true&width=500&lines=Hi+there+👋;Professional+DevOps+Engineer!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=4000&pause=1000&color=2EBD85&center=true&vCenter=true&width=500&lines=Hi+there+👋;DevOps+Engineer+🚀;Cloud+Expert+☁️;Automating+the+World+🤖;Python+%26+Go+Enthusiast+🐍" alt="Typing SVG" />
 </div>
 
 I'm Fernando, a 37-year-old DevOps Engineer from Brazil! 🇧🇷 
