@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=4000&pause=1000&color=FFFFFF&background=000000&center=true&vCenter=true&width=500&lines=Hi+there+👋;DevOps+Engineer+🚀;Cloud+Expert+☁️;Automating+the+World+🤖;Python+%26+Go+Enthusiast+🐍" alt="Typing SVG" />
 </div>
 
-I'm Fernando, a 37-year-old DevOps Engineer from Brazil! 🇧🇷 
+I'm Fernando, a 38-year-old DevOps Engineer from Brazil! 🇧🇷 
 With a Computer Science degree and a Postgraduate in AI and Machine Learning, I've been rocking the DevOps world since 2012! 🌟
 Started as an "I.T Boy" in the São Paulo state government back in 2006, and never stopped growing and learning! 🌱
 
