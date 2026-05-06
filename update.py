@@ -27,13 +27,13 @@ def run(cmd, description):
 def get_commit_prefix():
     """Menu para escolha do padrão Conventional Commits."""
     prefixes = {
-        "1": "feat",
-        "2": "fix",
-        "3": "docs",
-        "4": "refactor",
-        "5": "style",
-        "6": "test",
-        "7": "chore",
+        "1": "--feat",
+        "2": "--fix",
+        "3": "--docs",
+        "4": "--refactor",
+        "5": "--style",
+        "6": "--test",
+        "7": "--chore",
     }
 
     print(f"\n{Style.BOLD}Selecione o tipo de alteração:{Style.RESET}")
