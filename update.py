@@ -3,7 +3,7 @@ import subprocess
 import sys
 
 
-# Cores simples para o terminal
+# Configuração de estilo visual
 class Style:
     CYAN = "\033[96m"
     GREEN = "\033[92m"
@@ -13,9 +13,9 @@ class Style:
 
 
 def run(cmd, description):
+    """Executa comandos de subprocesso com tratamento de erro."""
     print(f"{Style.CYAN}>> {description}...{Style.RESET}")
     try:
-        # check=True faz o script parar se o comando falhar (ex: erro de lint)
         subprocess.run(cmd, check=True, capture_output=True)
     except subprocess.CalledProcessError as e:
         print(f"{Style.RED}Erro em: {description}{Style.RESET}")
@@ -24,51 +24,83 @@ def run(cmd, description):
         sys.exit(1)
 
 
+def get_commit_prefix():
+    """Menu para escolha do padrão Conventional Commits."""
+    prefixes = {
+        "1": "feat",
+        "2": "fix",
+        "3": "docs",
+        "4": "refactor",
+        "5": "style",
+        "6": "test",
+        "7": "chore",
+    }
+
+    print(f"\n{Style.BOLD}Selecione o tipo de alteração:{Style.RESET}")
+    for key, value in prefixes.items():
+        print(f"  {key}. {value}")
+
+    escolha = input("\nEscolha um número (ou Enter para pular): ").strip()
+    return prefixes.get(escolha, "")
+
+
 def main():
     try:
-        # 1. Verifica se é um repositório git
-        if (
-            subprocess.run(
-                ["git", "rev-parse", "--is-inside-work-tree"], capture_output=True
-            ).returncode
-            != 0
-        ):
+        # 1. Validação de ambiente Git
+        git_check = subprocess.run(
+            ["git", "rev-parse", "--is-inside-work-tree"], capture_output=True
+        )
+        if git_check.returncode != 0:
             print(f"{Style.RED}Erro: Você não está em um repositório Git!{Style.RESET}")
             return
 
-        date = datetime.datetime.now().strftime("%d-%m-%y %H:%M")
-
-        # 2. Qualidade de Código (Opcional - tenta rodar se o ruff estiver instalado)
+        # 2. Qualidade de Código (Linting com Ruff)
         try:
             run(["ruff", "format", "."], "Formatando código")
-            run(["ruff", "check", "--fix", "."], "Checando erros")
+            run(["ruff", "check", "--fix", "."], "Checando erros (Ruff)")
         except FileNotFoundError:
             print(
                 f"{Style.CYAN}Nota: Ruff não encontrado, pulando linting.{Style.RESET}"
             )
 
-        # 3. Informações do Commit
+        # 3. Coleta de informações do Commit
         subprocess.run(["clear"])
         current_branch = (
             subprocess.check_output(["git", "branch", "--show-current"])
             .strip()
             .decode()
         )
+        date_str = datetime.datetime.now().strftime("%d-%m-%y %H:%M")
 
-        print(f"{Style.BOLD}Repositório atual:{Style.RESET} {current_branch}")
-        commit = input(f"{Style.GREEN}Detalhes do commit: {Style.RESET}").strip()
+        print(
+            f"{Style.BOLD}Branch atual:{Style.RESET} {Style.CYAN}{current_branch}{Style.RESET}"
+        )
 
-        if not commit:
-            print(f"{Style.RED}Cancelado: Mensagem de commit vazia.{Style.RESET}")
+        prefixo = get_commit_prefix()
+        detalhes = input(f"{Style.GREEN}Detalhes do commit: {Style.RESET}").strip()
+
+        if not detalhes:
+            print(
+                f"{Style.RED}Cancelado: A mensagem de commit não pode ser vazia.{Style.RESET}"
+            )
             return
 
-        # 4. Git Flow
+        # Montagem da mensagem: "prefixo: detalhes / data" ou "detalhes / data"
+        if prefixo:
+            mensagem_final = f"{prefixo}: {detalhes} / {date_str}"
+        else:
+            mensagem_final = f"{detalhes} / {date_str}"
+
+        # 4. Git Flow (Add, Commit, Push)
         run(["git", "add", "."], "Adicionando arquivos")
-        run(["git", "commit", "-m", f"{commit} / {date}"], "Realizando commit")
+        run(["git", "commit", "-m", mensagem_final], "Realizando commit")
+
+        print(f"\n{Style.BOLD}Mensagem registrada:{Style.RESET} {mensagem_final}")
 
         push_confirm = input(
-            f"{Style.GREEN}Deseja executar o comando 'git push' para a branch {Style.RED}{current_branch}{Style.BOLD}{Style.RESET}? (s/n): "
+            f"\nDeseja dar push para {Style.BOLD}{current_branch}{Style.RESET}? (s/n): "
         )
+
         if push_confirm.lower() == "s":
             run(["git", "push", "origin", current_branch], "Enviando para o servidor")
             print(f"{Style.GREEN}✔ Processo finalizado com sucesso!{Style.RESET}")
