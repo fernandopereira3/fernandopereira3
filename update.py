@@ -67,7 +67,7 @@ def main():
         run(["git", "commit", "-m", f"{commit} / {date}"], "Realizando commit")
 
         push_confirm = input(
-            f"Deseja dar push para {Style.BOLD}{current_branch}{Style.RESET}? (s/n): "
+            f"Deseja enviar o 'git push' para {Style.BOLD}{current_branch}{Style.RESET}? (s/n): "
         )
         if push_confirm.lower() == "s":
             run(["git", "push", "origin", current_branch], "Enviando para o servidor")
